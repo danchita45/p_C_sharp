@@ -1,4 +1,12 @@
-﻿using System;
+﻿using hola_mundo;
+using System.Collections;
+
+ArrayList als = new ArrayList();
+
+
+
+
+
 
 int a = 2;
 int aa = 1;
@@ -8,6 +16,24 @@ double d = 12.3;
 char c = 'a';
 string s = "esto es un string";
 
+carritos carro = new carritos(300, 4, "jetta");
+
+carritos carro1 = new carritos(400, 4, "mazda");
+
+als.Add(carro);
+als.Add(carro1);
+
+Console.WriteLine("als");
+Console.WriteLine("    Count:    {0}", als.Count);
+Console.WriteLine("    Capacity: {0}", als.Capacity);
+Console.Write("    Values:");
+
+
+
+
+
+Console.WriteLine(carro.getNombre() + " "+ carro.getPuertas() + " "+ carro.getHorsepower());
+Console.WriteLine(carro1.getNombre() + " " + carro1.getPuertas() + " " + carro1.getHorsepower());
 
 Console.WriteLine("hola");
 Console.WriteLine(s);

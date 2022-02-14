@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4b750cfd-f70d-4f7f-a58a-5c2d298f8191": {
+      "ProjectGuid": "4b750cfd-f70d-4f7f-a58a-5c2d298f8191",
+      "DisplayName": "hola mundo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
